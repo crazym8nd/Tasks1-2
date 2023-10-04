@@ -17,7 +17,7 @@ public class Solution01 {
     public static void main(String[] args) {
         int[] array = {3, 8, 15, 17};
         int number = 23;
-        LinkedHashMap<Integer, Integer> numbers = new LinkedHashMap<Integer, Integer>();
+        HashMap<Integer, Integer> numbers = new HashMap<Integer, Integer>();
         for (int i = 0; i < array.length; i++) {
             numbers.put(array[i], i); //  k =3 v =0
         }
